@@ -30,7 +30,7 @@ html {
 
 section {
     height: 100vh;
-    display: inline;
+    display: grid;
     margin: 150px;
     
 }
@@ -150,7 +150,7 @@ h2 {
   
   @media (min-width: 768px) {
     .portfolio {
-      margin: 100px auto 100px auto;
+      margin: 200px auto 100px auto;
     }
   
     .portfolio__h2 {
@@ -159,9 +159,9 @@ h2 {
     }
   
     .portfolio__screen {
-      grid-auto-flow: column;
+      grid-auto-flow: row;
       place-items: center;
-      margin: 0 5rem;
+      margin: 0 8rem;
       text-align: center;
     }
   }
